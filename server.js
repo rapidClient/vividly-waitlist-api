@@ -30,7 +30,7 @@ app.use(json());
 app.use(helmet());
 app.use(xss());
 
-const allowedOrigins = ["http://localhost:5173", "https://vivdly.onrender.com"];
+const allowedOrigins = ["http://localhost:3000", "https://vivdly.onrender.com"];
 
 app.use(cors({
     origin: allowedOrigins,
